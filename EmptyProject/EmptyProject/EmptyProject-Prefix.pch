@@ -1,0 +1,16 @@
+//
+//  EmptyProject-Prefix.pch
+//  EmptyProject
+//
+//  Created by HuangMian on 2017/2/28.
+//  Copyright © 2017年 HuangMian. All rights reserved.
+//
+
+#ifndef EmptyProject_Prefix_pch
+#define EmptyProject_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "BaseViewController.h"
+#import "BaseUINavigationController.h"
+#endif /* EmptyProject_Prefix_pch */
