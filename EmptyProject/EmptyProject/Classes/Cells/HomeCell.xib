@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="268" id="KGk-i7-Jjw" customClass="HomeCell">
+            <rect key="frame" x="0.0" y="0.0" width="360" height="260"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="360" height="259"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HwJ-Jl-VDJ">
+                        <rect key="frame" x="0.0" y="0.0" width="360" height="267"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar_middle" translatesAutoresizingMaskIntoConstraints="NO" id="Kir-8C-aAE">
+                        <rect key="frame" x="8" y="8" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="8zj-KR-me9"/>
+                            <constraint firstAttribute="height" constant="40" id="Q6N-O9-mAG"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="空白" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjW-NC-XhH">
+                        <rect key="frame" x="56" y="19" width="29" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.25098039215686274" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" cocoaTouchSystemColor="darkTextColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2017-06" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eCO-6k-gCo">
+                        <rect key="frame" x="296" y="19" width="56" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.56470588235294117" green="0.56470588235294117" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="test1" translatesAutoresizingMaskIntoConstraints="NO" id="S17-sX-gzb">
+                        <rect key="frame" x="8" y="56" width="344" height="116"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="116" id="Qvf-vu-6Wq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="尾巴图赏｜山灵 M2s 无损播放器：润如玉，声如磐尾巴图赏s 无损播放器：润如玉，声如磐" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvf-gc-Sed">
+                        <rect key="frame" x="8" y="180" width="344" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="344" id="NGi-g9-j2o"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.25098039215686274" green="0.25098039215686274" blue="0.25098039215686274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="在这个看“脸”的时代，播放器若要吸引人，颜值必须得到位！秉承着这样一个思路，山灵 M2s 正式亮相了。在这个看“脸”的时代，播放器若要吸引人，颜值必须得到位！秉承着这样一个思路，山灵 M2s 正式亮相了。" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4bO-ZZ-q9q">
+                        <rect key="frame" x="8" y="209" width="344" height="31.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="344" id="HdI-pW-6wV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.56470588235294117" green="0.56470588235294117" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eee-IJ-4CR">
+                        <rect key="frame" x="0.0" y="249" width="360" height="10"/>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="IZ5-nJ-zG5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <gestureRecognizers/>
+                <constraints>
+                    <constraint firstAttribute="leadingMargin" secondItem="S17-sX-gzb" secondAttribute="leading" id="0WO-DZ-AZW"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Eee-IJ-4CR" secondAttribute="bottom" constant="-8" id="AgI-lO-McW"/>
+                    <constraint firstItem="Eee-IJ-4CR" firstAttribute="top" secondItem="4bO-ZZ-q9q" secondAttribute="bottom" constant="8.5" id="ERG-DA-jza"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="Kir-8C-aAE" secondAttribute="leading" id="HBT-Lw-goT"/>
+                    <constraint firstItem="S17-sX-gzb" firstAttribute="top" secondItem="Kir-8C-aAE" secondAttribute="bottom" constant="8" id="HeH-np-9Pg"/>
+                    <constraint firstItem="jjW-NC-XhH" firstAttribute="centerY" secondItem="Kir-8C-aAE" secondAttribute="centerY" id="IT4-9s-Sjy"/>
+                    <constraint firstItem="jjW-NC-XhH" firstAttribute="leading" secondItem="Kir-8C-aAE" secondAttribute="trailing" constant="8" id="LBH-VF-WvL"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="fvf-gc-Sed" secondAttribute="trailing" id="NBc-de-vwt"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="4bO-ZZ-q9q" secondAttribute="leading" id="OSJ-Yh-57f"/>
+                    <constraint firstItem="Eee-IJ-4CR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-8" id="UaB-o2-m9f"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="fvf-gc-Sed" secondAttribute="leading" id="Wav-dg-3cf"/>
+                    <constraint firstAttribute="topMargin" secondItem="Kir-8C-aAE" secondAttribute="top" id="aVR-0W-bAF"/>
+                    <constraint firstItem="eCO-6k-gCo" firstAttribute="centerY" secondItem="Kir-8C-aAE" secondAttribute="centerY" id="bsf-a4-Le6"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eCO-6k-gCo" secondAttribute="trailing" id="ebN-Tw-IVf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="4bO-ZZ-q9q" secondAttribute="trailing" id="hhT-bW-yfO"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="S17-sX-gzb" secondAttribute="trailing" id="vNh-1Z-vxf"/>
+                    <constraint firstItem="4bO-ZZ-q9q" firstAttribute="top" secondItem="fvf-gc-Sed" secondAttribute="bottom" constant="8" id="vqY-kQ-jpL"/>
+                    <constraint firstItem="fvf-gc-Sed" firstAttribute="top" secondItem="S17-sX-gzb" secondAttribute="bottom" constant="8" id="z4j-3r-6z5"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Eee-IJ-4CR" secondAttribute="trailing" constant="-8" id="zUz-z0-8pJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="avartar" destination="Kir-8C-aAE" id="4Tt-ae-weQ"/>
+                <outlet property="image" destination="S17-sX-gzb" id="p8O-hM-FEF"/>
+                <outlet property="imageHeight" destination="Qvf-vu-6Wq" id="Cff-D4-ufz"/>
+                <outlet property="name" destination="jjW-NC-XhH" id="2Lm-Wk-XtK"/>
+                <outlet property="summary" destination="4bO-ZZ-q9q" id="wpe-QM-ID1"/>
+                <outlet property="summaryWidth" destination="HdI-pW-6wV" id="sWI-4R-TuR"/>
+                <outlet property="time" destination="eCO-6k-gCo" id="dfK-Pn-stV"/>
+                <outlet property="title" destination="fvf-gc-Sed" id="6hv-r2-o9F"/>
+                <outlet property="titleWidth" destination="NGi-g9-j2o" id="C3I-hL-PRU"/>
+            </connections>
+            <point key="canvasLocation" x="129.5" y="7"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="avatar_middle" width="120" height="120"/>
+        <image name="test1" width="680" height="238"/>
+    </resources>
+</document>

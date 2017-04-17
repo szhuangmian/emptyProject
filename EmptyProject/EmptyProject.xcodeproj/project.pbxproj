@@ -8,10 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		561E886562DBF5EBC94B48C0 /* libPods-EmptyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD32CE32DE07561CAB8B7FF /* libPods-EmptyProject.a */; };
+		8611A73B1EA4926D00DA0C22 /* Article+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A7371EA4926D00DA0C22 /* Article+CoreDataProperties.m */; };
+		8611A73C1EA4926D00DA0C22 /* Article+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A7391EA4926D00DA0C22 /* Article+CoreDataClass.m */; };
+		8611A7451EA4965E00DA0C22 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A7431EA4965E00DA0C22 /* HomeCell.m */; };
+		8611A7461EA4965E00DA0C22 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8611A7441EA4965E00DA0C22 /* HomeCell.xib */; };
+		8611A74C1EA4C89900DA0C22 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A74B1EA4C89900DA0C22 /* UIColor+Hex.m */; };
 		867994131E6527CD00306B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 867994121E6527CD00306B4E /* main.m */; };
 		867994161E6527CD00306B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 867994151E6527CD00306B4E /* AppDelegate.m */; };
 		8679941C1E6527CD00306B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8679941A1E6527CD00306B4E /* Main.storyboard */; };
-		8679941F1E6527CD00306B4E /* EmptyProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8679941D1E6527CD00306B4E /* EmptyProject.xcdatamodeld */; };
 		867994211E6527CD00306B4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 867994201E6527CD00306B4E /* Assets.xcassets */; };
 		867994241E6527CD00306B4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 867994221E6527CD00306B4E /* LaunchScreen.storyboard */; };
 		8679942F1E6527CD00306B4E /* EmptyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8679942E1E6527CD00306B4E /* EmptyProjectTests.m */; };
@@ -43,6 +47,15 @@
 /* Begin PBXFileReference section */
 		5AD32CE32DE07561CAB8B7FF /* libPods-EmptyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EmptyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		74D357DCBB971F898C22812B /* Pods-EmptyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EmptyProject/Pods-EmptyProject.debug.xcconfig"; sourceTree = "<group>"; };
+		8611A7371EA4926D00DA0C22 /* Article+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Article+CoreDataProperties.m"; sourceTree = "<group>"; };
+		8611A7381EA4926D00DA0C22 /* Article+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Article+CoreDataClass.h"; sourceTree = "<group>"; };
+		8611A7391EA4926D00DA0C22 /* Article+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Article+CoreDataClass.m"; sourceTree = "<group>"; };
+		8611A73A1EA4926D00DA0C22 /* Article+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Article+CoreDataProperties.h"; sourceTree = "<group>"; };
+		8611A7421EA4965E00DA0C22 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		8611A7431EA4965E00DA0C22 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		8611A7441EA4965E00DA0C22 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		8611A74A1EA4C89900DA0C22 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		8611A74B1EA4C89900DA0C22 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		8679940E1E6527CD00306B4E /* EmptyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmptyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867994121E6527CD00306B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		867994141E6527CD00306B4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +118,17 @@
 				5AD32CE32DE07561CAB8B7FF /* libPods-EmptyProject.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8611A7301EA4921B00DA0C22 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8611A7381EA4926D00DA0C22 /* Article+CoreDataClass.h */,
+				8611A7391EA4926D00DA0C22 /* Article+CoreDataClass.m */,
+				8611A73A1EA4926D00DA0C22 /* Article+CoreDataProperties.h */,
+				8611A7371EA4926D00DA0C22 /* Article+CoreDataProperties.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		867994051E6527CD00306B4E = {
@@ -175,11 +199,11 @@
 		8679945A1E65535200306B4E /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8611A7301EA4921B00DA0C22 /* Models */,
 				8679945B1E65535200306B4E /* 3rd */,
 				8679945C1E65535200306B4E /* Cells */,
 				8679945D1E65535200306B4E /* CustomUI */,
 				8679945E1E65535200306B4E /* HttpClient */,
-				8679945F1E65535200306B4E /* Models */,
 				867994601E65535200306B4E /* Tools */,
 				867994611E65535200306B4E /* Utils */,
 				867994621E65535200306B4E /* ViewControllers */,
@@ -202,6 +226,9 @@
 		8679945C1E65535200306B4E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				8611A7421EA4965E00DA0C22 /* HomeCell.h */,
+				8611A7431EA4965E00DA0C22 /* HomeCell.m */,
+				8611A7441EA4965E00DA0C22 /* HomeCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -220,13 +247,6 @@
 			path = HttpClient;
 			sourceTree = "<group>";
 		};
-		8679945F1E65535200306B4E /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		867994601E65535200306B4E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
@@ -237,6 +257,8 @@
 		867994611E65535200306B4E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				8611A74A1EA4C89900DA0C22 /* UIColor+Hex.h */,
+				8611A74B1EA4C89900DA0C22 /* UIColor+Hex.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -376,6 +398,7 @@
 			files = (
 				867994241E6527CD00306B4E /* LaunchScreen.storyboard in Resources */,
 				867994211E6527CD00306B4E /* Assets.xcassets in Resources */,
+				8611A7461EA4965E00DA0C22 /* HomeCell.xib in Resources */,
 				8679941C1E6527CD00306B4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,10 +474,13 @@
 			files = (
 				867994161E6527CD00306B4E /* AppDelegate.m in Sources */,
 				867994131E6527CD00306B4E /* main.m in Sources */,
-				8679941F1E6527CD00306B4E /* EmptyProject.xcdatamodeld in Sources */,
+				8611A7451EA4965E00DA0C22 /* HomeCell.m in Sources */,
+				8611A73B1EA4926D00DA0C22 /* Article+CoreDataProperties.m in Sources */,
+				8611A73C1EA4926D00DA0C22 /* Article+CoreDataClass.m in Sources */,
 				8679946B1E65535200306B4E /* UserViewController.m in Sources */,
 				867994721E6553EF00306B4E /* BaseUINavigationController.m in Sources */,
 				8679946A1E65535200306B4E /* HomeViewController.m in Sources */,
+				8611A74C1EA4C89900DA0C22 /* UIColor+Hex.m in Sources */,
 				8679946F1E6553A900306B4E /* BaseViewController.m in Sources */,
 				867994691E65535200306B4E /* FindViewController.m in Sources */,
 			);
@@ -608,6 +634,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/EmptyProject-Prefix.pch";
 				INFOPLIST_FILE = EmptyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsh.mobile.EmptyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -622,6 +649,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/EmptyProject-Prefix.pch";
 				INFOPLIST_FILE = EmptyProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hsh.mobile.EmptyProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -696,6 +724,7 @@
 				867994401E6527CD00306B4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		867994411E6527CD00306B4E /* Build configuration list for PBXNativeTarget "EmptyProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -704,6 +733,7 @@
 				867994431E6527CD00306B4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		867994441E6527CD00306B4E /* Build configuration list for PBXNativeTarget "EmptyProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -712,6 +742,7 @@
 				867994461E6527CD00306B4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

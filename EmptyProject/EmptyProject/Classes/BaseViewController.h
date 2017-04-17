@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Constants.h"
+#import "UIColor+Hex.h"
 
 @interface BaseViewController : UIViewController
 
