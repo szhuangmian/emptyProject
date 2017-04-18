@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <MobAPI/MobAPI.h>
 
 @interface AppDelegate ()
 

@@ -13,6 +13,8 @@
 		8611A7451EA4965E00DA0C22 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A7431EA4965E00DA0C22 /* HomeCell.m */; };
 		8611A7461EA4965E00DA0C22 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8611A7441EA4965E00DA0C22 /* HomeCell.xib */; };
 		8611A74C1EA4C89900DA0C22 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A74B1EA4C89900DA0C22 /* UIColor+Hex.m */; };
+		86592C431EA6164100CF6C06 /* HomeCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 86592C411EA6164100CF6C06 /* HomeCell2.m */; };
+		86592C441EA6164100CF6C06 /* HomeCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86592C421EA6164100CF6C06 /* HomeCell2.xib */; };
 		867994131E6527CD00306B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 867994121E6527CD00306B4E /* main.m */; };
 		867994161E6527CD00306B4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 867994151E6527CD00306B4E /* AppDelegate.m */; };
 		8679941C1E6527CD00306B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8679941A1E6527CD00306B4E /* Main.storyboard */; };
@@ -56,6 +58,9 @@
 		8611A7441EA4965E00DA0C22 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		8611A74A1EA4C89900DA0C22 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		8611A74B1EA4C89900DA0C22 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		86592C401EA6164100CF6C06 /* HomeCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell2.h; sourceTree = "<group>"; };
+		86592C411EA6164100CF6C06 /* HomeCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell2.m; sourceTree = "<group>"; };
+		86592C421EA6164100CF6C06 /* HomeCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell2.xib; sourceTree = "<group>"; };
 		8679940E1E6527CD00306B4E /* EmptyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmptyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		867994121E6527CD00306B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		867994141E6527CD00306B4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -229,6 +234,9 @@
 				8611A7421EA4965E00DA0C22 /* HomeCell.h */,
 				8611A7431EA4965E00DA0C22 /* HomeCell.m */,
 				8611A7441EA4965E00DA0C22 /* HomeCell.xib */,
+				86592C401EA6164100CF6C06 /* HomeCell2.h */,
+				86592C411EA6164100CF6C06 /* HomeCell2.m */,
+				86592C421EA6164100CF6C06 /* HomeCell2.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -397,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				867994241E6527CD00306B4E /* LaunchScreen.storyboard in Resources */,
+				86592C441EA6164100CF6C06 /* HomeCell2.xib in Resources */,
 				867994211E6527CD00306B4E /* Assets.xcassets in Resources */,
 				8611A7461EA4965E00DA0C22 /* HomeCell.xib in Resources */,
 				8679941C1E6527CD00306B4E /* Main.storyboard in Resources */,
@@ -477,6 +486,7 @@
 				8611A7451EA4965E00DA0C22 /* HomeCell.m in Sources */,
 				8611A73B1EA4926D00DA0C22 /* Article+CoreDataProperties.m in Sources */,
 				8611A73C1EA4926D00DA0C22 /* Article+CoreDataClass.m in Sources */,
+				86592C431EA6164100CF6C06 /* HomeCell2.m in Sources */,
 				8679946B1E65535200306B4E /* UserViewController.m in Sources */,
 				867994721E6553EF00306B4E /* BaseUINavigationController.m in Sources */,
 				8679946A1E65535200306B4E /* HomeViewController.m in Sources */,

@@ -14,13 +14,25 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - MobAPI-For-iOS (1.0.7):
+    - MOBFoundation
+  - MOBFoundation (2.2.15)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0)
+  - AFNetworking (~> 3.1.0)
+  - MobAPI-For-iOS
+  - MOBFoundation
+  - SDWebImage (~> 4.0.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  MobAPI-For-iOS: c8b2630fc6250a2cfdb4822c3b3cd8fb28300111
+  MOBFoundation: 4975874f74c991f562151f6a4549e9a6ad743fd8
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 910f846bbb9a767299c2a18442b51f84645e8aab
+PODFILE CHECKSUM: bddd42aecbf556f232dc025a0fe0ae5a31a51956
 
 COCOAPODS: 1.2.0
