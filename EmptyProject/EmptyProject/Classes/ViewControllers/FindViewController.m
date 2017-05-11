@@ -7,6 +7,7 @@
 //
 
 #import "FindViewController.h"
+#import "CustomTextView.h"
 
 @interface FindViewController ()
 
@@ -17,6 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    CustomTextView *textView = [[CustomTextView alloc] initWithFrame:CGRectMake(10, 50, 200, 200)];
+    textView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:textView];
 }
 
 - (void)didReceiveMemoryWarning {
