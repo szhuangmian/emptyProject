@@ -1,26 +1,27 @@
 //
-//  FindViewController.m
+//  ViewController.m
 //  EmptyProject
 //
-//  Created by HuangMian on 2017/2/28.
+//  Created by HuangMian on 2017/5/29.
 //  Copyright © 2017年 HuangMian. All rights reserved.
 //
 
-#import "FindViewController.h"
 #import "ViewController.h"
+#import "VCView.h"
+#import "CoreTextView.h"
 
-@interface FindViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation FindViewController
+@implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    ViewController *vc = [story instantiateViewControllerWithIdentifier:@"ViewController"];
-    [self.navigationController pushViewController:vc animated:YES];
+    //[self.view addSubview:[[VCView alloc] initWithFrame:[self.view bounds]]];
+    
+    [self.view addSubview:[[CoreTextView alloc] initWithFrame:[self.view bounds]]];
 }
 
 - (void)didReceiveMemoryWarning {

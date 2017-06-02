@@ -54,4 +54,10 @@
 #define iOS9 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0)
 
 
+#ifdef DEBUG
+#define debug(fmt, ...) NSLog(fmt, ##__VA_ARGS__);
+#else
+#define debug(...)
+#endif
+
 #endif /* Constant_h */

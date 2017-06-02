@@ -15,6 +15,7 @@
 		8611A7451EA4965E00DA0C22 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A7431EA4965E00DA0C22 /* HomeCell.m */; };
 		8611A7461EA4965E00DA0C22 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8611A7441EA4965E00DA0C22 /* HomeCell.xib */; };
 		8611A74C1EA4C89900DA0C22 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A74B1EA4C89900DA0C22 /* UIColor+Hex.m */; };
+		865334DE1EDC25A900A34F07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 865334DD1EDC25A900A34F07 /* ViewController.m */; };
 		86592C431EA6164100CF6C06 /* HomeCell2.m in Sources */ = {isa = PBXBuildFile; fileRef = 86592C411EA6164100CF6C06 /* HomeCell2.m */; };
 		86592C441EA6164100CF6C06 /* HomeCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86592C421EA6164100CF6C06 /* HomeCell2.xib */; };
 		867994131E6527CD00306B4E /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 867994121E6527CD00306B4E /* main.mm */; };
@@ -31,6 +32,8 @@
 		867994721E6553EF00306B4E /* BaseUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 867994711E6553EF00306B4E /* BaseUINavigationController.m */; };
 		8683919F1EADEA2E00BDD03E /* CustomTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8683919E1EADEA2E00BDD03E /* CustomTextView.m */; };
 		868964B51EA7443900C73327 /* lib2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 868964B31EA7443900C73327 /* lib2.mm */; };
+		86E80C331EDE697800C8B067 /* VCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E80C321EDE697800C8B067 /* VCView.m */; };
+		86F793F21EE16904007F2F3E /* CoreTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86F793F11EE16904007F2F3E /* CoreTextView.m */; };
 		86FE4B281EB1A70500576875 /* lib3.mm in Sources */ = {isa = PBXBuildFile; fileRef = 86FE4B261EB1A70500576875 /* lib3.mm */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +70,8 @@
 		8611A7441EA4965E00DA0C22 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
 		8611A74A1EA4C89900DA0C22 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		8611A74B1EA4C89900DA0C22 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		865334DC1EDC25A900A34F07 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		865334DD1EDC25A900A34F07 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86592C401EA6164100CF6C06 /* HomeCell2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell2.h; sourceTree = "<group>"; };
 		86592C411EA6164100CF6C06 /* HomeCell2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell2.m; sourceTree = "<group>"; };
 		86592C421EA6164100CF6C06 /* HomeCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell2.xib; sourceTree = "<group>"; };
@@ -101,6 +106,10 @@
 		8683919E1EADEA2E00BDD03E /* CustomTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextView.m; sourceTree = "<group>"; };
 		868964B31EA7443900C73327 /* lib2.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = lib2.mm; sourceTree = "<group>"; };
 		868964B41EA7443900C73327 /* lib2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lib2.hpp; sourceTree = "<group>"; };
+		86E80C311EDE697800C8B067 /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
+		86E80C321EDE697800C8B067 /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
+		86F793F01EE16904007F2F3E /* CoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextView.h; sourceTree = "<group>"; };
+		86F793F11EE16904007F2F3E /* CoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextView.m; sourceTree = "<group>"; };
 		86FE4B261EB1A70500576875 /* lib3.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = lib3.mm; sourceTree = "<group>"; };
 		86FE4B271EB1A70500576875 /* lib3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lib3.hpp; sourceTree = "<group>"; };
 		9F142F4C3FF6E2A724FC08E8 /* Pods-EmptyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmptyProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-EmptyProject/Pods-EmptyProject.release.xcconfig"; sourceTree = "<group>"; };
@@ -302,6 +311,12 @@
 				867994641E65535200306B4E /* FindViewController.m */,
 				867994671E65535200306B4E /* UserViewController.h */,
 				867994681E65535200306B4E /* UserViewController.m */,
+				865334DC1EDC25A900A34F07 /* ViewController.h */,
+				865334DD1EDC25A900A34F07 /* ViewController.m */,
+				86E80C311EDE697800C8B067 /* VCView.h */,
+				86E80C321EDE697800C8B067 /* VCView.m */,
+				86F793F01EE16904007F2F3E /* CoreTextView.h */,
+				86F793F11EE16904007F2F3E /* CoreTextView.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -311,8 +326,8 @@
 			children = (
 				868964B41EA7443900C73327 /* lib2.hpp */,
 				868964B31EA7443900C73327 /* lib2.mm */,
-				86FE4B261EB1A70500576875 /* lib3.mm */,
 				86FE4B271EB1A70500576875 /* lib3.hpp */,
+				86FE4B261EB1A70500576875 /* lib3.mm */,
 			);
 			name = lib;
 			sourceTree = "<group>";
@@ -514,6 +529,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865334DE1EDC25A900A34F07 /* ViewController.m in Sources */,
 				867994161E6527CD00306B4E /* AppDelegate.m in Sources */,
 				8609DA011EB043980024A0A4 /* CTextPosition.m in Sources */,
 				867994131E6527CD00306B4E /* main.mm in Sources */,
@@ -523,8 +539,10 @@
 				8683919F1EADEA2E00BDD03E /* CustomTextView.m in Sources */,
 				86592C431EA6164100CF6C06 /* HomeCell2.m in Sources */,
 				8679946B1E65535200306B4E /* UserViewController.m in Sources */,
+				86F793F21EE16904007F2F3E /* CoreTextView.m in Sources */,
 				867994721E6553EF00306B4E /* BaseUINavigationController.m in Sources */,
 				868964B51EA7443900C73327 /* lib2.mm in Sources */,
+				86E80C331EDE697800C8B067 /* VCView.m in Sources */,
 				86FE4B281EB1A70500576875 /* lib3.mm in Sources */,
 				8679946A1E65535200306B4E /* HomeViewController.m in Sources */,
 				8611A74C1EA4C89900DA0C22 /* UIColor+Hex.m in Sources */,
