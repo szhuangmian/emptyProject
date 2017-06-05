@@ -33,8 +33,8 @@
 - (void)drawRect:(CGRect)rect {
     // Drawing code
       CGContextRef context = UIGraphicsGetCurrentContext();
+      CGContextTranslateCTM(context, 0, rect.size.height);
       CGContextScaleCTM(context, 1, -1);
-      CGContextTranslateCTM(context, 0, -screenHeight);
       CGContextSetFillColorWithColor(context, [[UIColor blueColor] CGColor]);
       CGContextAddRect(context, self.bounds);
       CGContextFillPath(context);
