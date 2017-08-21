@@ -10,8 +10,6 @@
 		561E886562DBF5EBC94B48C0 /* libPods-EmptyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AD32CE32DE07561CAB8B7FF /* libPods-EmptyProject.a */; };
 		8609D9FE1EB0436F0024A0A4 /* CTextRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 8609D9FD1EB0436F0024A0A4 /* CTextRange.m */; };
 		8609DA011EB043980024A0A4 /* CTextPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8609DA001EB043980024A0A4 /* CTextPosition.m */; };
-		8611A73B1EA4926D00DA0C22 /* Article+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A7371EA4926D00DA0C22 /* Article+CoreDataProperties.m */; };
-		8611A73C1EA4926D00DA0C22 /* Article+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A7391EA4926D00DA0C22 /* Article+CoreDataClass.m */; };
 		8611A7451EA4965E00DA0C22 /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A7431EA4965E00DA0C22 /* HomeCell.m */; };
 		8611A7461EA4965E00DA0C22 /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8611A7441EA4965E00DA0C22 /* HomeCell.xib */; };
 		8611A74C1EA4C89900DA0C22 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8611A74B1EA4C89900DA0C22 /* UIColor+Hex.m */; };
@@ -61,10 +59,6 @@
 		8609D9FD1EB0436F0024A0A4 /* CTextRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTextRange.m; sourceTree = "<group>"; };
 		8609D9FF1EB043980024A0A4 /* CTextPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTextPosition.h; sourceTree = "<group>"; };
 		8609DA001EB043980024A0A4 /* CTextPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTextPosition.m; sourceTree = "<group>"; };
-		8611A7371EA4926D00DA0C22 /* Article+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Article+CoreDataProperties.m"; sourceTree = "<group>"; };
-		8611A7381EA4926D00DA0C22 /* Article+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Article+CoreDataClass.h"; sourceTree = "<group>"; };
-		8611A7391EA4926D00DA0C22 /* Article+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Article+CoreDataClass.m"; sourceTree = "<group>"; };
-		8611A73A1EA4926D00DA0C22 /* Article+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Article+CoreDataProperties.h"; sourceTree = "<group>"; };
 		8611A7421EA4965E00DA0C22 /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
 		8611A7431EA4965E00DA0C22 /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
 		8611A7441EA4965E00DA0C22 /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
@@ -108,6 +102,10 @@
 		868964B41EA7443900C73327 /* lib2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = lib2.hpp; sourceTree = "<group>"; };
 		86E80C311EDE697800C8B067 /* VCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCView.h; sourceTree = "<group>"; };
 		86E80C321EDE697800C8B067 /* VCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCView.m; sourceTree = "<group>"; };
+		86EDA68C1F4A82A700033819 /* Model+Generate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Model+Generate.h"; sourceTree = "<group>"; };
+		86EDA68D1F4A82A700033819 /* Runtime+Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runtime+Addition.h"; sourceTree = "<group>"; };
+		86EDA68E1F4A82A700033819 /* Runtime+Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Runtime+Addition.m"; sourceTree = "<group>"; };
+		86EDA68F1F4A82A700033819 /* Model+Generate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Model+Generate.m"; sourceTree = "<group>"; };
 		86F793F01EE16904007F2F3E /* CoreTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextView.h; sourceTree = "<group>"; };
 		86F793F11EE16904007F2F3E /* CoreTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextView.m; sourceTree = "<group>"; };
 		86FE4B261EB1A70500576875 /* lib3.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = lib3.mm; sourceTree = "<group>"; };
@@ -152,10 +150,10 @@
 		8611A7301EA4921B00DA0C22 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				8611A7381EA4926D00DA0C22 /* Article+CoreDataClass.h */,
-				8611A7391EA4926D00DA0C22 /* Article+CoreDataClass.m */,
-				8611A73A1EA4926D00DA0C22 /* Article+CoreDataProperties.h */,
-				8611A7371EA4926D00DA0C22 /* Article+CoreDataProperties.m */,
+				86EDA68C1F4A82A700033819 /* Model+Generate.h */,
+				86EDA68F1F4A82A700033819 /* Model+Generate.m */,
+				86EDA68D1F4A82A700033819 /* Runtime+Addition.h */,
+				86EDA68E1F4A82A700033819 /* Runtime+Addition.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,7 +232,6 @@
 				8679945C1E65535200306B4E /* Cells */,
 				8679945D1E65535200306B4E /* CustomUI */,
 				8679945E1E65535200306B4E /* HttpClient */,
-				867994601E65535200306B4E /* Tools */,
 				867994611E65535200306B4E /* Utils */,
 				867994621E65535200306B4E /* ViewControllers */,
 				8679946C1E65538300306B4E /* Constants.h */,
@@ -284,13 +281,6 @@
 			children = (
 			);
 			path = HttpClient;
-			sourceTree = "<group>";
-		};
-		867994601E65535200306B4E /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 		867994611E65535200306B4E /* Utils */ = {
@@ -534,8 +524,6 @@
 				8609DA011EB043980024A0A4 /* CTextPosition.m in Sources */,
 				867994131E6527CD00306B4E /* main.mm in Sources */,
 				8611A7451EA4965E00DA0C22 /* HomeCell.m in Sources */,
-				8611A73B1EA4926D00DA0C22 /* Article+CoreDataProperties.m in Sources */,
-				8611A73C1EA4926D00DA0C22 /* Article+CoreDataClass.m in Sources */,
 				8683919F1EADEA2E00BDD03E /* CustomTextView.m in Sources */,
 				86592C431EA6164100CF6C06 /* HomeCell2.m in Sources */,
 				8679946B1E65535200306B4E /* UserViewController.m in Sources */,
